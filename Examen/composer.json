@@ -1,0 +1,19 @@
+{
+    "name": "josem/examen",
+    "description": "Examen PHP",
+    "autoload": {
+        "psr-4": {
+            "Josem\\Examen\\": "src/",
+            "Controllers\\": "./src/Controllers",
+            "Models\\": "./src/Models",
+            "Lib\\": "./src/Lib",
+            "Routes\\": "./src/Routes",
+            "views\\": "./src/views",
+            "utils\\": "./src/utils"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
